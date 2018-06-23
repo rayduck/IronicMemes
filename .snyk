@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - initai-dev-server > request > hawk > hoek:
+        patched: '2018-06-23T00:38:56.359Z'
+    - initai-dev-server > request > hawk > boom > hoek:
+        patched: '2018-06-23T00:38:56.359Z'
+    - initai-dev-server > request > hawk > sntp > hoek:
+        patched: '2018-06-23T00:38:56.359Z'
+    - initai-dev-server > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-23T00:38:56.359Z'
+    - initai-dev-server > natural > log4js > loggly > request > hawk > hoek:
+        patched: '2018-06-23T00:38:56.359Z'
+    - initai-dev-server > natural > log4js > loggly > request > hawk > boom > hoek:
+        patched: '2018-06-23T00:38:56.359Z'
+    - initai-dev-server > natural > log4js > loggly > request > hawk > sntp > hoek:
+        patched: '2018-06-23T00:38:56.359Z'
+    - initai-dev-server > natural > log4js > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-23T00:38:56.359Z'
