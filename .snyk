@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:tunnel-agent:20170305':
+    - initai-dev-server > request > tunnel-agent:
+        patched: '2018-10-27T03:44:51.813Z'
+    - initai-dev-server > restify > tunnel-agent:
+        patched: '2018-10-27T03:44:51.813Z'
